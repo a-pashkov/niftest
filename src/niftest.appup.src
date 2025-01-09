@@ -1,3 +1,3 @@
-{"1.0.2", 
-  [{<<"[0-9]+\\.[0-9]+\\.[0-9]+">>, [{update, niftest}]}],
-  [{<<"[0-9]+\\.[0-9]+\\.[0-9]+">>, [{update, niftest}]}]}.
+{"1.0.2",
+  [{"1.0.1", [{load_module, niftest, soft_purge, soft_purge, []}]}],
+  [{"1.0.1", [{load_module, niftest, soft_purge, soft_purge, []}]}]}.
