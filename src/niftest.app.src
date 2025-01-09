@@ -1,0 +1,11 @@
+{application, niftest,
+ [
+  {description, "niftest"},
+  {vsn, "1.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {niftest, []}}
+ ]}.
