@@ -6,6 +6,5 @@
   {applications, [
                   kernel,
                   stdlib
-                 ]},
-  {mod, {niftest, []}}
+                 ]}
  ]}.
