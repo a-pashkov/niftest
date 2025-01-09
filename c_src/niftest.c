@@ -3,7 +3,7 @@
 
 static ERL_NIF_TERM hello(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[])
 {
-    return enif_make_string(env, "Hello world first", ERL_NIF_LATIN1);
+    return enif_make_string(env, "Hello world second", ERL_NIF_LATIN1);
 }
 
 static int load(ErlNifEnv* env, void** priv_data, ERL_NIF_TERM load_info) {

@@ -1,7 +1,7 @@
 {application, niftest,
  [
   {description, "niftest"},
-  {vsn, "1.0.1"},
+  {vsn, "1.0.2"},
   {registered, []},
   {applications, [
                   kernel,
